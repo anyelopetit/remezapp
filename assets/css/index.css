@@ -10,6 +10,10 @@
   font-weight: 600;
 }
 
+.title {
+  margin-top: 80px;
+}
+
 .item {
   display: inline-block;
   padding: 10px;
@@ -30,7 +34,7 @@ p {
 }
 
 #home {
-  background-image: linear-gradient(to top right, rgba(0, 79, 223, 0.8), rgba(31, 166, 123, 0.8)), url('..assets/img/mastercard.jpg');
+  background-image: linear-gradient(to top right, rgba(0, 79, 223, 0.8), rgba(31, 166, 123, 0.8)), url("/assets/mastercard.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

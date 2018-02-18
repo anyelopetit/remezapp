@@ -1,0 +1,148 @@
+.app-navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+.logo {
+  font-size: 3rem;
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.item {
+  display: inline-block;
+  padding: 10px;
+}
+.item a {
+  color: #fff;
+  font-weight: 400;
+}
+
+.button {
+  background: #1fa67b;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+p {
+  font-size: 2rem
+}
+
+#home {
+  background-image: linear-gradient(to top right, rgba(0, 79, 223, 0.8), rgba(31, 166, 123, 0.8)), url('..assets/img/mastercard.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: auto;
+  color: #ddd;
+}
+#home a {
+  color: #fff
+}
+#sign-up {
+  padding-top: 50px;
+  width: 500px;
+  max-width: 400px;
+  float: right;
+}
+#sign-up .form-wrap {
+  width: 30%;
+  margin: 0 auto;
+}
+#sign-up h1 {
+  color: #004fdf;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+#sign-up .form-group {
+  margin-bottom: 25px;
+}
+#sign-up .checkbox {
+  margin-bottom: 20px;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+#sign-up .checkbox.show:before {
+  content: '\e013';
+  color: #1fa67b;
+  background: rgba(100,100,100,.2);
+  font-size: 15px;
+  margin: 1px 0 0 3px;
+  position: absolute;
+  pointer-events: none;
+  font-family: 'Glyphicons Halflings';
+}
+#sign-up .checkbox .character-checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  vertical-align: middle;
+  display: inline-block;
+}
+#sign-up .checkbox .label {
+  color: #ddd;
+  font-size: 13px;
+  font-weight: normal;
+}
+#sign-up .btn.btn-custom {
+  font-size: 14px;
+  margin-bottom: 20px;
+  background: #1fa67b;
+  color: #ddd;
+}
+#sign-up .forget {
+  font-size: 13px;
+  text-align: center;
+  display: block;
+}
+
+#sign-up  .form-control {
+  color: #212121
+}
+#sign-up  .btn-custom {
+  color: #fff;
+  background-color: #1fa67b
+}
+#sign-up  .btn-custom:hover,
+#sign-up  .btn-custom:focus {
+  color: #fff
+}
+
+.feature {
+  margin-top: 50px
+}
+.feature i {
+  display: block;
+  font-size: 5rem;
+  margin: 10px
+}
+#testimonials .b-reviews__rating {
+  list-style-type: none;
+  margin: 0 0 12px;
+  padding: 0
+}
+#testimonials li {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiI…AgICAgICAgICA8L2c+ICAgICAgICAgICAgPC9nPiAgICAgICAgPC9nPiAgICA8L2c+PC9zdmc+);
+  background-repeat: no-repeat;
+  background-position: center center;
+  list-style: none;
+}
+section {
+  padding: 5%
+}
+footer {
+  padding: 50px
+}
